@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,9 +9,10 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/eduhub.styles.css" asp-append-version="true" />
 </head>
+
 <body>
     <header>
-         <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="eduhub2.png" alt="" width="100" height="60" class="d-inline-block align-text-top">
@@ -89,18 +91,19 @@
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Exams</a></li>
+                                <li><a class="dropdown-item" asp-area="portal" asp-controller="exams"
+                                        asp-action="index">Exams</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="portal" asp-controller="credentials"
-                                asp-action="Create">Credentials</a>
+                                asp-action="Create"></a>
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
             </div>
-        </nav>       
+        </nav>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -118,4 +121,5 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>
