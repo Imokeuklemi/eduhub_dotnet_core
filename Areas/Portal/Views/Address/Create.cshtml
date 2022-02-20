@@ -1,0 +1,49 @@
+@model eduhub.Models.Address
+
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="row card">
+    <div class="card-header">
+        Create: Address
+    </div>
+    <hr />
+    <div class="col-md-4 m-auto">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <select asp-for="StudentId" hidden="true" aria-hidden="true" class="form-control"
+                    aria-selected="@ViewBag.StudentId" value="@ViewBag.StudentId"
+                    asp-items="ViewBag.StudentId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Street" class="control-label"></label>
+                <input asp-for="Street" class="form-control" />
+                <span asp-validation-for="Street" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Lg" class="control-label"></label>
+                <input asp-for="Lg" class="form-control" />
+                <span asp-validation-for="Lg" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactPhone" class="control-label"></label>
+                <input asp-for="ContactPhone" class="form-control" />
+                <span asp-validation-for="ContactPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactEmail" class="control-label"></label>
+                <input asp-for="ContactEmail" class="form-control" />
+                <span asp-validation-for="ContactEmail" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,121 @@
+@model eduhub.Models.Student
+
+<h4>Student</h4>
+<hr />
+<div class="row m-auto align-items-lg-center justify-content-center">
+
+    <div class="col-md-4">
+        <fieldset>
+            <legend> Registration Form</legend>
+
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Surname" class="control-label"></label>
+                    <input asp-for="Surname" class="form-control" />
+                    <span asp-validation-for="Surname" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="FirstName" class="control-label"></label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MiddleName" class="control-label"></label>
+                    <input asp-for="MiddleName" class="form-control" />
+                    <span asp-validation-for="MiddleName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MaidenName" class="control-label"></label>
+                    <input asp-for="MaidenName" class="form-control" />
+                    <span asp-validation-for="MaidenName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DateOfBirth" class="control-label"></label>
+                    <input asp-for="DateOfBirth" class="form-control" />
+                    <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Sex" class="control-label"></label>
+                    <select class="form-select" id="Sex" name="Sex">
+                        <option selected>Choose...</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                    <span asp-validation-for="Sex" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MaritalStatus" class="control-label"></label>
+                    <select class="form-select" id="MaritalStatus" name="MaritalStatus">
+                        <option selected>Choose...</option>
+                        <option value="Single">Signle</option>
+                        <option value="Married">Married</option>
+                        <option value="Other">Others</option>
+
+                    </select>
+                    <span asp-validation-for="MaritalStatus" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" aria-readonly="true" value="@ViewBag.Email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MobileNumber" class="control-label"></label>
+                    <input asp-for="MobileNumber" class="form-control" />
+                    <span asp-validation-for="MobileNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CtOfOrigin" class="control-label"></label>
+                    <input asp-for="CtOfOrigin" class="form-control" />
+                    <span asp-validation-for="CtOfOrigin" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LgaOfOrigin" class="control-label"></label>
+                    <select asp-for="LgaOfOrigin" class="form-control" asp-items="ViewBag.LgaOfOrigin"></select>
+                </div>
+                <hr>
+                <div class="form-group">
+                    <label asp-for="Programme" class="control-label"></label>
+                    <select asp-for="Programme" class="form-control" asp-items="ViewBag.Programme"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CourseOfStudy" class="control-label"></label>
+                    <select asp-for="CourseOfStudy" class="form-control" asp-items="ViewBag.CourseOfStudy">
+                        <option>Choose...</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="AlternateCourseOfStudy" class="control-label"></label>
+                    <select asp-for="AlternateCourseOfStudy" class="form-control"
+                        asp-items="ViewBag.AlternateCourseOfStudy">
+                        <option>Choose...</option>
+                    </select>
+                </div>
+
+                @* <div class="form-group">
+                    <label asp-for="Programme" class="control-label"></label>
+                    <input asp-for="Programme" class="form-control" />
+                    <span asp-validation-for="Programme" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                    <label asp-for="CourseOfStudy" class="control-label"></label>
+                    <input asp-for="CourseOfStudy" class="form-control" />
+                    <span asp-validation-for="CourseOfStudy" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                    <label asp-for="AlternateCourseOfStudy" class="control-label"></label>
+                    <input asp-for="AlternateCourseOfStudy" class="form-control" />
+                    <span asp-validation-for="AlternateCourseOfStudy" class="text-danger"></span>
+                    </div> *@
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </fieldset>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,344 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = eduhub
+build_property.RootNamespace = eduhub
+build_property.ProjectDir = E:\dotnetProjects\eduhub\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\dotnetProjects\eduhub
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Department/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVwYXJ0bWVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Department/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVwYXJ0bWVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Department/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVwYXJ0bWVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Department/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVwYXJ0bWVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Department/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/DeptProg/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVwdFByb2dcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/DeptProg/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVwdFByb2dcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/DeptProg/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVwdFByb2dcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/DeptProg/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVwdFByb2dcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/DeptProg/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVwdFByb2dcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Payment/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGF5bWVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Payment/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGF5bWVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Payment/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGF5bWVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Payment/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGF5bWVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Payment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGF5bWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Programme/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZ3JhbW1lXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Programme/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZ3JhbW1lXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Programme/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZ3JhbW1lXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Programme/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZ3JhbW1lXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Programme/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZ3JhbW1lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Schedule/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2NoZWR1bGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Schedule/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2NoZWR1bGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Schedule/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2NoZWR1bGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Schedule/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2NoZWR1bGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/Schedule/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2NoZWR1bGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/School/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2Nob29sXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/School/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2Nob29sXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/School/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2Nob29sXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/School/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2Nob29sXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/School/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2Nob29sXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Exams/Views/RegisteredCourse/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXhhbXNcVmlld3NcUmVnaXN0ZXJlZENvdXJzZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Exams/Views/RegisteredCourse/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXhhbXNcVmlld3NcUmVnaXN0ZXJlZENvdXJzZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Exams/Views/RegisteredCourse/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXhhbXNcVmlld3NcUmVnaXN0ZXJlZENvdXJzZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Exams/Views/RegisteredCourse/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXhhbXNcVmlld3NcUmVnaXN0ZXJlZENvdXJzZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Exams/Views/RegisteredCourse/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXhhbXNcVmlld3NcUmVnaXN0ZXJlZENvdXJzZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Address/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXEFkZHJlc3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Address/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXEFkZHJlc3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Address/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXEFkZHJlc3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Address/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXEFkZHJlc3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Address/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXEFkZHJlc3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Courses/Courses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXENvdXJzZXNcQ291cnNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Courses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXENvdXJzZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Courses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXENvdXJzZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Courses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXENvdXJzZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Courses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXENvdXJzZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Credential/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXENyZWRlbnRpYWxcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Credential/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXENyZWRlbnRpYWxcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Credential/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXENyZWRlbnRpYWxcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Credential/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXENyZWRlbnRpYWxcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Credential/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXENyZWRlbnRpYWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Qualifications/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFF1YWxpZmljYXRpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Qualifications/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFF1YWxpZmljYXRpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Qualifications/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFF1YWxpZmljYXRpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Qualifications/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFF1YWxpZmljYXRpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Qualifications/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFF1YWxpZmljYXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Referees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFJlZmVyZWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Referees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFJlZmVyZWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Referees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFJlZmVyZWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Referees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFJlZmVyZWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Referees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFJlZmVyZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Registration/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFJlZ2lzdHJhdGlvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Registration/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFJlZ2lzdHJhdGlvblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Registration/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFJlZ2lzdHJhdGlvblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Registration/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFJlZ2lzdHJhdGlvblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Registration/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFJlZ2lzdHJhdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Registration/PdfOutput.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFJlZ2lzdHJhdGlvblxQZGZPdXRwdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Subject/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFN1YmplY3RcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Subject/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFN1YmplY3RcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Subject/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFN1YmplY3RcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Subject/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFN1YmplY3RcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/Subject/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFN1YmplY3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4ljofym092
