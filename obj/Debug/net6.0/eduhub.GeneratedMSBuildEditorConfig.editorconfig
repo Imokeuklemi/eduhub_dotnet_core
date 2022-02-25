@@ -135,6 +135,34 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2Nob29sXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Exams/Views/Exams/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXhhbXNcVmlld3NcRXhhbXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Exams/Views/Exams/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXhhbXNcVmlld3NcRXhhbXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Exams/Views/Exams/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXhhbXNcVmlld3NcRXhhbXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Exams/Views/Exams/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXhhbXNcVmlld3NcRXhhbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Exams/Views/Exams/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXhhbXNcVmlld3NcRXhhbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/dotnetProjects/eduhub/Areas/Exams/Views/RegisteredCourse/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXhhbXNcVmlld3NcUmVnaXN0ZXJlZENvdXJzZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -257,6 +285,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/dotnetProjects/eduhub/Areas/Portal/Views/Referees/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFJlZmVyZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/RegisteredCourse/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFJlZ2lzdGVyZWRDb3Vyc2VcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/RegisteredCourse/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFJlZ2lzdGVyZWRDb3Vyc2VcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/RegisteredCourse/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFJlZ2lzdGVyZWRDb3Vyc2VcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/RegisteredCourse/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFJlZ2lzdGVyZWRDb3Vyc2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/dotnetProjects/eduhub/Areas/Portal/Views/RegisteredCourse/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9ydGFsXFZpZXdzXFJlZ2lzdGVyZWRDb3Vyc2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/dotnetProjects/eduhub/Areas/Portal/Views/Registration/Create.cshtml]

@@ -1,0 +1,94 @@
+@model eduhub.Models.Registeredcourse
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Registeredcourse</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="StudentId" class="control-label"></label>
+                <select asp-for="StudentId" class ="form-control" asp-items="ViewBag.StudentId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="CourseLevel" class="control-label"></label>
+                <input asp-for="CourseLevel" class="form-control" />
+                <span asp-validation-for="CourseLevel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Semester" class="control-label"></label>
+                <input asp-for="Semester" class="form-control" />
+                <span asp-validation-for="Semester" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CourseCode" class="control-label"></label>
+                <input asp-for="CourseCode" class="form-control" />
+                <span asp-validation-for="CourseCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Session" class="control-label"></label>
+                <input asp-for="Session" class="form-control" />
+                <span asp-validation-for="Session" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AssessmentScore" class="control-label"></label>
+                <input asp-for="AssessmentScore" class="form-control" />
+                <span asp-validation-for="AssessmentScore" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ExamScore" class="control-label"></label>
+                <input asp-for="ExamScore" class="form-control" />
+                <span asp-validation-for="ExamScore" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Alphagrade" class="control-label"></label>
+                <input asp-for="Alphagrade" class="form-control" />
+                <span asp-validation-for="Alphagrade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GradePoint" class="control-label"></label>
+                <input asp-for="GradePoint" class="form-control" />
+                <span asp-validation-for="GradePoint" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cgp" class="control-label"></label>
+                <input asp-for="Cgp" class="form-control" />
+                <span asp-validation-for="Cgp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GradeClass" class="control-label"></label>
+                <input asp-for="GradeClass" class="form-control" />
+                <span asp-validation-for="GradeClass" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remarks" class="control-label"></label>
+                <input asp-for="Remarks" class="form-control" />
+                <span asp-validation-for="Remarks" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CourseId" class="control-label"></label>
+                <input asp-for="CourseId" class="form-control" />
+                <span asp-validation-for="CourseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

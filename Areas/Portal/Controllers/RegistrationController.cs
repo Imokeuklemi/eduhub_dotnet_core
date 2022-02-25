@@ -17,15 +17,16 @@ using eduhub.Models;
 
 namespace eduhub.Areas.Portal.Controllers
 {
+    [Route("admission")]
     [Authorize]
     [Area("Portal")]
     public class RegistrationController : Controller
     {
         private readonly UserManager<IdentityUser> _userManager;
-        private readonly EduhubDBContext _context;
+        private readonly EdumisContext _context;
 
         public RegistrationController(
-            EduhubDBContext context,
+            EdumisContext context,
             UserManager<IdentityUser> userManager
         )
         {
@@ -36,34 +37,13 @@ namespace eduhub.Areas.Portal.Controllers
         // GET: Registration
         public async Task<IActionResult> Index()
         {
-            var eduhubDBContext = _context.Students
+            var EdumisContext = _context.Students
                 .Include(s => s.CourseApprovedNavigation)
                 .Include(s => s.LgaOfOriginNavigation);
-            return View(await eduhubDBContext.ToListAsync());
+            return View(await EdumisContext.ToListAsync());
         }
 
-        public async Task<IActionResult> PdfOutput(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
 
-            var student = await _context.Students
-                .Include(s => s.CourseApprovedNavigation)
-                .Include(s => s.LgaOfOriginNavigation)
-                .Include(s => s.Addresses)
-               .Include(s => s.Referees)
-               .Include(s => s.Qualifications)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (student == null)
-            {
-                return NotFound();
-            }
-
-            return View(student);
-
-        }
         // GET: Registration/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -85,6 +65,7 @@ namespace eduhub.Areas.Portal.Controllers
         }
 
 
+        [Route("student")]
         // GET: Registration/Create
         public IActionResult Create()
         {

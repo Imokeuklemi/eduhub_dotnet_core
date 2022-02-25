@@ -14,9 +14,9 @@ namespace eduhub.Areas.Portal.Controllers
     [Area("portal")]
     public class AddressController : Controller
     {
-        private readonly EduhubDBContext _context;
+        private readonly EdumisContext _context;
 
-        public AddressController(EduhubDBContext context)
+        public AddressController(EdumisContext context)
         {
             _context = context;
         }

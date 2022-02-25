@@ -23,9 +23,9 @@ namespace eduhub.Areas.Portal.Controllers
     [Area("Portal")]
     public class QualificationsController : Controller
     {
-        private readonly EduhubDBContext _context;
+        private readonly EdumisContext _context;
 
-        public QualificationsController(EduhubDBContext context)
+        public QualificationsController(EdumisContext context)
         {
             _context = context;
         }
@@ -33,8 +33,8 @@ namespace eduhub.Areas.Portal.Controllers
         // GET: Qualifications
         public async Task<IActionResult> Index()
         {
-            var eduhubDBContext = _context.Qualifications.Include(q => q.Student);
-            return View(await eduhubDBContext.ToListAsync());
+            var EdumisContext = _context.Qualifications.Include(q => q.Student);
+            return View(await EdumisContext.ToListAsync());
         }
 
         // GET: Qualifications/Details/5

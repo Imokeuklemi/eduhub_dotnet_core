@@ -14,9 +14,9 @@ namespace eduhub.Areas_Admin_Controller
     [Area("admin")]
     public class SchoolController : Controller
     {
-        private readonly EduhubDBContext _context;
+        private readonly EdumisContext _context;
 
-        public SchoolController(EduhubDBContext context)
+        public SchoolController(EdumisContext context)
         {
             _context = context;
         }

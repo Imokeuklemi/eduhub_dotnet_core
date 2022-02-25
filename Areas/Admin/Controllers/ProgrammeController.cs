@@ -11,12 +11,13 @@ using eduhub.Models;
 
 namespace eduhub.Areas_Admin_Controller
 {
-    [Area("admin")]
+    [Area("admin")]  
+  
     public class ProgrammeController : Controller
     {
-        private readonly EduhubDBContext _context;
+        private readonly EdumisContext _context;
 
-        public ProgrammeController(EduhubDBContext context)
+        public ProgrammeController(EdumisContext context)
         {
             _context = context;
         }
@@ -46,6 +47,7 @@ namespace eduhub.Areas_Admin_Controller
         }
 
         // GET: Programme/Create
+       
         public IActionResult Create()
         {
             return View();

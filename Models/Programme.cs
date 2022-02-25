@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
 
 namespace eduhub.Models
 {
@@ -11,9 +13,8 @@ namespace eduhub.Models
         }
 
         public int Id { get; set; }
+          [Display(Name = "Programme(s)")]
         public string? ProgName { get; set; }
-        public string Department { get; set; } = null!;
-
-        public virtual ICollection<DeptProg> DeptProgs { get; set; }
+         public virtual ICollection<DeptProg> DeptProgs { get; set; }
     }
 }

@@ -14,9 +14,9 @@ namespace eduhub.Areas_Admin_Controller
     [Area("admin")]
     public class ScheduleController : Controller
     {
-        private readonly EduhubDBContext _context;
+        private readonly EdumisContext _context;
 
-        public ScheduleController(EduhubDBContext context)
+        public ScheduleController(EdumisContext context)
         {
             _context = context;
         }

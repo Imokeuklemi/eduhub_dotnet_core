@@ -15,9 +15,9 @@ namespace eduhub.Areas_Portal_Controllers
     [Area("Portal")]
     public class CredentialController : Controller
     {
-        private readonly EduhubDBContext _context;
+        private readonly EdumisContext _context;
 
-        public CredentialController(EduhubDBContext context)
+        public CredentialController(EdumisContext context)
         {
             _context = context;
         }
@@ -25,8 +25,8 @@ namespace eduhub.Areas_Portal_Controllers
         // GET: Credential
         public async Task<IActionResult> Index()
         {
-            var eduhubDBContext = _context.Credentials.Include(c => c.Student);
-            return View(await eduhubDBContext.ToListAsync());
+            var EdumisContext = _context.Credentials.Include(c => c.Student);
+            return View(await EdumisContext.ToListAsync());
         }
 
         // GET: Credential/Details/5

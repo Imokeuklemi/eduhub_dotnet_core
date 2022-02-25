@@ -13,10 +13,11 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
-builder.Services.AddDbContext<EduhubDBContext>(
+builder.Services.AddDbContext<EdumisContext>(
 options => options.UseSqlServer(builder.Configuration.GetConnectionString("EduhubConnection"))
 );
 
+//builder.Services.AddWkhtmltopdf("wkhtmltopdf");
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
@@ -43,6 +44,22 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
+app.MapAreaControllerRoute(
+    name: "Portal",
+    areaName: "Portal",
+    pattern: "portal/{controller=Home}/{action=Index}/{id?}"
+);
+
+app.MapAreaControllerRoute(
+    name: "admin",
+    areaName: "Admin",
+    pattern: "admin/{controller=Home}/{action=Index}/{id?}"
+);
+app.MapAreaControllerRoute(
+    name: "exams",
+    areaName: "Exams",
+    pattern: "exams/{controller=Home}/{action=Index}/{id?}"
+);
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

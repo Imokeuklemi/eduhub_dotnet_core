@@ -16318,6 +16318,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Exams\\Views\\Exams\\Delete.cshtml",
+      "TargetPath": "Areas\\Exams\\Views\\Exams\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Portal\\Views\\Referees\\Details.cshtml",
       "TargetPath": "Areas\\Portal\\Views\\Referees\\Details.cshtml",
       "FileKind": "mvc"
@@ -16338,6 +16343,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Exams\\Views\\Exams\\Index.cshtml",
+      "TargetPath": "Areas\\Exams\\Views\\Exams\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Portal\\Views\\Registration\\Edit.cshtml",
       "TargetPath": "Areas\\Portal\\Views\\Registration\\Edit.cshtml",
       "FileKind": "mvc"
@@ -16353,6 +16363,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Admin\\Views\\DeptProg\\Details.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\DeptProg\\Details.cshtml",
       "FileKind": "mvc"
@@ -16363,8 +16378,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Portal\\Views\\RegisteredCourse\\Index.cshtml",
+      "TargetPath": "Areas\\Portal\\Views\\RegisteredCourse\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Admin\\Views\\School\\Create.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\School\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Exams\\Views\\Exams\\Details.cshtml",
+      "TargetPath": "Areas\\Exams\\Views\\Exams\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16408,6 +16438,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Exams\\Views\\Exams\\Edit.cshtml",
+      "TargetPath": "Areas\\Exams\\Views\\Exams\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Admin\\Views\\School\\Index.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\School\\Index.cshtml",
       "FileKind": "mvc"
@@ -16433,6 +16468,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Portal\\Views\\RegisteredCourse\\Edit.cshtml",
+      "TargetPath": "Areas\\Portal\\Views\\RegisteredCourse\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -16440,6 +16480,11 @@
     {
       "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Admin\\Views\\Schedule\\Index.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Schedule\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Portal\\Views\\RegisteredCourse\\Delete.cshtml",
+      "TargetPath": "Areas\\Portal\\Views\\RegisteredCourse\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16488,6 +16533,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Exams\\Views\\Exams\\Create.cshtml",
+      "TargetPath": "Areas\\Exams\\Views\\Exams\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\dotnetProjects\\eduhub\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -16500,6 +16550,11 @@
     {
       "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Portal\\Views\\Address\\Index.cshtml",
       "TargetPath": "Areas\\Portal\\Views\\Address\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Portal\\Views\\RegisteredCourse\\Details.cshtml",
+      "TargetPath": "Areas\\Portal\\Views\\RegisteredCourse\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16685,6 +16740,11 @@
     {
       "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Admin\\Views\\Department\\Delete.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Department\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\dotnetProjects\\eduhub\\Areas\\Portal\\Views\\RegisteredCourse\\Create.cshtml",
+      "TargetPath": "Areas\\Portal\\Views\\RegisteredCourse\\Create.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -14,9 +14,9 @@ namespace eduhub.Areas.Portal.Controllers
     [Area("Portal")]
     public class SubjectController : Controller
     {
-        private readonly EduhubDBContext _context;
+        private readonly EdumisContext _context;
 
-        public SubjectController(EduhubDBContext context)
+        public SubjectController(EdumisContext context)
         {
             _context = context;
         }
@@ -24,8 +24,8 @@ namespace eduhub.Areas.Portal.Controllers
         // GET: Subject
         public async Task<IActionResult> Index()
         {
-            var eduhubDBContext = _context.Subjects.Include(s => s.Qualification);
-            return View(await eduhubDBContext.ToListAsync());
+            var EdumisContext = _context.Subjects.Include(s => s.Qualification);
+            return View(await EdumisContext.ToListAsync());
         }
 
         // GET: Subject/Details/5

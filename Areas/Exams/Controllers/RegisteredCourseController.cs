@@ -6,16 +6,20 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
+
 using eduhub.Data;
 using eduhub.Models;
 
-namespace eduhub.Areas_Exams_Controller
+namespace eduhub.Areas.Exams.Controllers
 {
+   [Authorize]
+    [Area("Exams")]
     public class RegisteredCourseController : Controller
     {
-        private readonly EduhubDBContext _context;
+        private readonly EdumisContext _context;
 
-        public RegisteredCourseController(EduhubDBContext context)
+        public RegisteredCourseController(EdumisContext context)
         {
             _context = context;
         }
@@ -23,8 +27,8 @@ namespace eduhub.Areas_Exams_Controller
         // GET: RegisteredCourse
         public async Task<IActionResult> Index()
         {
-            var eduhubDBContext = _context.Registeredcourses.Include(r => r.Student);
-            return View(await eduhubDBContext.ToListAsync());
+            var EdumisContext = _context.Registeredcourses.Include(r => r.Student);
+            return View(await EdumisContext.ToListAsync());
         }
 
         // GET: RegisteredCourse/Details/5

@@ -14,9 +14,9 @@ namespace eduhub.Areas.Portal.Controllers
     [Area("Portal")]
     public class RefereesController : Controller
     {
-        private readonly EduhubDBContext _context;
+        private readonly EdumisContext _context;
 
-        public RefereesController(EduhubDBContext context)
+        public RefereesController(EdumisContext context)
         {
             _context = context;
         }
@@ -24,8 +24,8 @@ namespace eduhub.Areas.Portal.Controllers
         // GET: Referees
         public async Task<IActionResult> Index()
         {
-            var eduhubDBContext = _context.Referees.Include(r => r.Student);
-            return View(await eduhubDBContext.ToListAsync());
+            var EdumisContext = _context.Referees.Include(r => r.Student);
+            return View(await EdumisContext.ToListAsync());
         }
 
         // GET: Referees/Details/5

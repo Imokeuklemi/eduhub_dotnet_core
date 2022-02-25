@@ -14,9 +14,9 @@ namespace eduhub.Areas.Portal.Controllers
     [Area("Portal")]
     public class CoursesController : Controller
     {
-        private readonly EduhubDBContext _context;
+        private readonly EdumisContext _context;
 
-        public CoursesController(EduhubDBContext context)
+        public CoursesController(EdumisContext context)
         {
             _context = context;
         }
@@ -24,8 +24,8 @@ namespace eduhub.Areas.Portal.Controllers
         // GET: Courses
         public async Task<IActionResult> Index()
         {
-            var eduhubDBContext = _context.Registeredcourses.Include(r => r.Student);
-            return View(await eduhubDBContext.ToListAsync());
+            var EdumisContext = _context.Registeredcourses.Include(r => r.Student);
+            return View(await EdumisContext.ToListAsync());
         }
 
         // GET: Courses/Details/5
